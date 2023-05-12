@@ -1,0 +1,5 @@
+com/hito/controller/UsuarioController.class
+com/hito/model/Usuario.class
+com/prueba/hito/resources/JakartaRestConfiguration.class
+com/hito/dao/UsuarioDAO.class
+com/prueba/hito/resources/JakartaEE10Resource.class

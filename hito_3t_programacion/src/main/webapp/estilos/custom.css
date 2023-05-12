@@ -1,0 +1,349 @@
+/*
+ESTE CSS SOBREESCRIBE Y PERSONALIZA ESTILOS DE BOOTSTRAP
+*/
+
+/* =======================================================================
+GENERAL
+========================================================================== */
+
+.flexbox {
+  display: block;
+  justify-content: space-between;
+}
+
+@media (min-width: 651px) {
+  .flexbox {
+    display: flex;
+  }
+}
+
+.main {
+  max-width: 900px;
+}
+
+.main-table {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.tabla {
+  width: 100%;
+  max-width: 100%;
+  /*table-layout: fixed;*/
+  font-size: 12px;
+}
+
+.tabla td {
+  /*width: 25px; /* si hay cuatro columnas */
+}
+
+.select-custom {
+  width: 210px;
+  display: inline-block;
+  padding: 4px;
+  margin: 4px 0;
+}
+
+.container-custom {
+  max-width: 1420px!important;
+}
+
+@media (max-width: 992px) {
+  .container-custom {
+    max-width: none;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-custom {
+    margin: 0 auto;
+    max-width: 1420px!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-custom {
+    max-width: none;
+  }
+}
+
+.container-narrow {
+}
+
+@media (max-width: 992px) {
+  .container-narrow {
+    max-width: none;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-narrow {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-narrow {
+    max-width: none;
+  }
+}
+
+.container-form {
+  max-width: 800px;
+}
+
+@media (max-width: 992px) {
+  .container-form {
+    max-width: none;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-form {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-form {
+    max-width: none;
+  }
+}
+
+.max700 {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.max900 {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.pricing-card-title small {
+  font-size: 18px!important;
+}
+
+.carousel-caption p {
+  font-size: 24px;
+} 
+
+#custom .logo {
+  width: auto;
+  height: 41px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .card-c {
+    margin-bottom: 16px;
+  }
+}
+
+.title-small {
+  margin-bottom: 4px;
+}
+
+.title-smaller {
+  font-size: 20px;
+}
+
+.btn-main {
+  margin-top: 10px;
+}
+
+.btn-purple {
+  transition: 0.4s;
+  margin-top: 24px;
+  background-color: #FF3C31;
+  border-color: #FF3C31;
+  width: 100%;
+}
+
+.btn-purple:hover {
+  background-color: white;
+  color: #FF3C31;
+  border-color: #FF3C31;
+}
+
+.btn-purple-inline {
+  color: #FF3C31;
+  border-color: #FF3C31;
+}
+
+.btn-purple-inline:hover {
+  background-color: #FF3C31;
+  border-color: #FF3C31;
+}
+
+.img-sample {
+  margin: 36px auto;
+  display: block;
+}
+
+/* =======================================================================
+HEADER
+========================================================================== */
+
+#custom .header-custom {
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+#custom .nav-link:hover {
+  color: #0d6efd!important;
+}
+
+@media (min-width: 767px) {
+  #custom .btns-custom {
+    width: 30%;
+  }
+}
+
+.title-nav {
+  font-weight: 700;
+}
+
+/* =======================================================================
+HERO
+========================================================================== */
+
+.hero-img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  /*width: 90%;*/
+  height: 700px;
+  margin-right: 16px;
+}
+
+@media (max-width: 650px) {
+  .hero-img {
+    width: 100%;
+    padding: 24px!important;
+    height: max-content;
+    height: 500px;
+  }
+}
+
+.hero-trasparent {
+  background: rgba(00, 00, 00, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-index {
+  position: relative;
+  z-index: 10;
+  color: white;
+  margin-top: 50px;
+}
+
+.hero-blog {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 233px;
+}
+
+@media (max-width: 650px) {
+  .hero-blog {
+    padding: 32px!important;
+  }
+}
+
+.hero-blog p {
+  margin-bottom: 0;
+}
+
+.copy {
+  margin-top: 24px;
+}
+
+/* =======================================================================
+BARRA LATERAL
+========================================================================== */
+
+.nav-bar {
+  width: 190px;
+}
+
+@media (max-width: 650px) {
+  .nav-bar {
+    width: 100%;
+    padding: 0!important;
+  }
+}
+
+.social-icon {
+  display: inline-block;
+  font-size: 24px;
+  padding-right: 8px;
+  transition: 0.3s;
+  color:black;
+}
+
+.social-icon:hover {
+  color:#FF3C31;
+}
+
+.btn-toggle {
+  padding: .25rem .5rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, .65);
+  background-color: transparent;
+  text-align: left;
+}
+.btn-toggle:hover,
+.btn-toggle:focus {
+  color: rgba(0, 0, 0, .85);
+  background-color: #e1b4f7;
+}
+
+.btn-toggle::before {
+  width: 1.25em;
+  line-height: 0;
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+  transition: transform .35s ease;
+  transform-origin: .5em 50%;
+}
+
+.btn-toggle[aria-expanded="true"] {
+  color: rgba(0, 0, 0, .85);
+}
+.btn-toggle[aria-expanded="true"]::before {
+  transform: rotate(90deg);
+}
+
+.btn-toggle-nav a {
+  padding: .1875rem .5rem;
+  margin-top: .125rem;
+  margin-left: 1.25rem;
+}
+.btn-toggle-nav a:hover,
+.btn-toggle-nav a:focus {
+  transition: .5s;
+  background-color: #FFEDD0;
+}
+
+.scrollarea {
+  overflow-y: auto;
+}
+
+.toggle-list {
+  transition: .4s;
+}
