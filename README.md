@@ -5,7 +5,7 @@
 - SoloCrossfit es una aplicación web Java que permite a los usuarios **calcular** el coste de su tarifa mensual en el gimnasio, aplicada como socios mes a mes.
 - La aplicación es atractiva estéticamente y ofrece una buena experiencia de usuario, pues este gimnasio desea incrementar su número de clientes/socios en el próximo mes.
 
-Tecnologías usadas en este proyecto: Java, JSP, Servlets, MySQL, JavaScript.
+Tecnologías usadas en este proyecto: Java, JSP, Servlets, MySQL, CSS3 y JavaScript.
 
 ### Intrucciones
 
