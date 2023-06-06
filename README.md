@@ -1,5 +1,9 @@
 # solocrossfit
 
+### Descripción
+
+Tecnologías usadas en este proyecto: Java, JSP, Servlets, MySQL, JavaScript.
+
 ### Intrucciones
 
 - La base de datos se ha exportado desde phpMyAdmin.
